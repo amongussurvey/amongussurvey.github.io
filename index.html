@@ -434,7 +434,7 @@ const PALETTE_SIZE = 500;     // number of fixed test colors (more = finer steps
 const PALETTE_SEED = 20260;   // changing this (or the size) changes the whole test palette
 const SPREAD_TRIES = 12;      // higher = more evenly spread palette, lower = more random-looking
 // ----- levelling (in memory only; nothing is saved or sent) -----  // LEVELLING_PATCH
-const DEV_DEFAULT=true;      // true = show the live "why did/didn't this earn XP" log. Set to false for release.
+const DEV_DEFAULT=false;      // true = show the live "why did/didn't this earn XP" log. Set to false for release.
 let DEV_MODE=DEV_DEFAULT;     // lite mode forces this to false
 let LITE=false;               // lite mode: only what the survey strictly needs
 const XP_ROUND=1, XP_ADJUST=2, MAX_LEVEL=18, MAX_XP=10000;   // XP keeps counting past level 18 (it fills the golden crewmate) up to MAX_XP
